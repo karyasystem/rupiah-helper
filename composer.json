@@ -1,7 +1,6 @@
 {
     "name": "karyasystem/rupiah-helper",
     "description": "An advanced and flexible Rupiah Currency Helper for Laravel. Provides functions for formatting numbers into Rupiah format (IntToRupiah), converting Rupiah format back to integers (RupiahToInt), and converting numbers to Indonesian text (Terbilang). Includes extensive options to customize the currency format to fit your requirements.",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -25,7 +24,7 @@
     }],
     "require": {
         "php": ">=7.3",
-        "illuminate/support": "^8.0"
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
     },
     "config": {
         "optimize-autoloader": true
@@ -35,7 +34,6 @@
         "currency",
         "formatter",
         "laravel",
-        "helper",
-        "indonesia"
+        "helper"
     ]
 }
